@@ -66,51 +66,10 @@ const deleteItem = id => {
     .catch(serviceHelper.onGlobalError);
 };
 
-// const displayItems = (pageIndex, pageSize) => {
-//   const config = {
-//     method: "GET",
-//     url: `${siteUrl}/api/items/paginate?pageIndex=${pageIndex}&pageSize=${pageSize}`,
-//     withCredentials: true,
-//     crossDomain: true
-//   };
-
-//   return axios(config)
-//     .then(serviceHelper.onGlobalSuccess)
-//     .catch(serviceHelper.onGlobalError);
-// };
-
-// const searchItems = (pageIndex, pageSize, query) => {
-//   const config = {
-//     method: "GET",
-//     url: `${siteUrl}/api/items/search?pageIndex=${pageIndex}&pageSize=${pageSize}&query=${query}`,
-//     withCredentials: true,
-//     crossDomain: true
-//   };
-
-//   return axios(config)
-//     .then(serviceHelper.onGlobalSuccess)
-//     .catch(serviceHelper.onGlobalError);
-// };
-
-// const getAllTypes = () => {
-//   const config = {
-//     method: "GET",
-//     url: `${siteUrl}/api/items/all/options`,
-//     withCredentials: true,
-//     crossDomain: true
-//   };
-//   return axios(config)
-//     .then(serviceHelper.onGlobalSuccess)
-//     .catch(serviceHelper.onGlobalError);
-// };
-
 export {
   addItem,
   getItems,
   deleteItem,
   updateItem,
-  getById,
-//   displayItems,
-//   searchItems,
-//   getAllTypes
+  getById
 };
