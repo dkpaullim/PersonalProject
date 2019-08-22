@@ -1,0 +1,16 @@
+.text-price {
+  color: #ea4335;
+  font-size: 1.1rem !important;
+}
+
+.btn-light {
+  background: #f3f2f2;
+}
+
+.btn-light:focus {
+  background: #aaaaaa !important;
+}
+
+.line {
+    color: #ea4335;
+}
