@@ -6,13 +6,6 @@ import { add, update, getItems } from "../../state/items/actions";
 
 class ItemsForm extends React.Component {
   state = {
-    // targetSchema: itemsSchema.addSchema,
-    // selectors: {
-    //   companyStatus: [],
-    //   companyStatusComponent: [],
-    //   industryType: [],
-    //   industryTypeComponent: []
-    // },
     form: {
       color: "",
       sizeId: "",
@@ -39,37 +32,8 @@ class ItemsForm extends React.Component {
           form: newItem
         };
       });
-
-      //index
-
-      // itemsService
-      //   this.props.getItemById(id)
-      //   .then(this.onGetItemByIdSuccess)
-      //   .catch(this.onGetItemByIdError);
     }
   }
-
-  // onGetItemByIdSuccess = resp => {
-
-  //   this.setState(() => {
-  //     const form = {
-  //     color: resp.color,
-  //     sizeId: resp.sizeId,
-  //     reviewStarsId: 5,
-  //     itemName: resp.itemName,
-  //     itemDetails: resp.itemDetails,
-  //     itemTypeId: resp.itemTypeId,
-  //     imageUrl: resp.imageUrl,
-  //     gender: resp.gender,
-  //     price: resp.price,
-  //     itemBrand: resp.itemBrand,
-  //     id: resp.id
-  //     }
-  //     return {
-  //       form
-  //     }
-  //   })
-  // }
 
   clickHandler = values => {
     const { id } = this.props.match.params;
@@ -129,7 +93,6 @@ class ItemsForm extends React.Component {
               handleBlur,
               handleSubmit,
               isSubmitting,
-              // setFieldValue,
               isValid
             } = props;
             return (
