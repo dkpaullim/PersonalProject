@@ -17,12 +17,7 @@ namespace my_new_app.Services
         private string connectionString = "Server=localhost;Database=PersonalProject;Trusted_Connection=true";
         private string ConnectionString { get; set; }
         private static IAmazonS3 s3Client;
-        // private AWSCredential _aWSCredential;
-        //public FileService(IOptions<AWSCredential> aWSCredential)
-        //{
-        //    this.ConnectionString = connectionString;
-        //    _aWSCredential = aWSCredential.Value;
-        //}
+        
         public async Task<string> UploadFile(IFormFile file) 
         {
             TransferUtility fileTransferUtility = null;
@@ -40,15 +35,6 @@ namespace my_new_app.Services
             }
             string url = "https://personalproject-items.s3-us-west-1.amazonaws.com/" + keyName;
             return url;
-            // This below section inserts file information to sql database. 
-            //FilesAddRequest model = new FilesAddRequest()
-            //{
-            //    Name = file.FileName,
-            //    Url = "http://personalproject-items.s3.us-west-1.amazonaws.com" + keyName,
-            //    FileType = 1,
-            //};
-            //Add(model); // i have removed the id from here 
-            //return model.Url;
         }
 
 
