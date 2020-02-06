@@ -101,51 +101,6 @@ class ItemDetails extends React.Component {
                   <div className="pl-1 pb-1">
                     <button className="btn btn-light">6</button>
                   </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">7</button>
-                  </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">7.5</button>
-                  </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">8</button>
-                  </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">8.5</button>
-                  </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">9</button>
-                  </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">9.5</button>
-                  </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">10</button>
-                  </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">10.5</button>
-                  </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">11</button>
-                  </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">11.5</button>
-                  </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">12</button>
-                  </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">12.5</button>
-                  </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">13</button>
-                  </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">14</button>
-                  </div>
-                  <div className="pl-1 pb-1">
-                    <button className="btn btn-light">15</button>
-                  </div>
                 </Row>
                 <div className="pt-2">
                   <button className="btn btn-warning float-right">
